@@ -7,7 +7,8 @@ Configuração Lamp
 5. passo5: ativar o perfil mais restritivo que ainda passopermitirá o tráfego que você configurou, permitindo o tráfego na porta 80 comando:sudo ufw allow 'Apache'
 6. passo6: Verifique com o systemdsistema init para garantir que o serviço esteja sendo executado, digitando:sudo systemctl status apache2. ##(Apache instalado).
 ## Dicas:
-### os principais arquivos vao estar em etc/apache2 onde vai encontrar: ports.conf: serve para configurar as portas. 
+### os principais arquivos vao estar em etc/apache2 onde vai encontrar: 
+- ports.conf: serve para configurar as portas. 
 - apache2.conf: que pode alterar o nome do servidor entre outras configurações gerais.
 ### pasta de conf-available que tem varios arquivos dentre os mais importantes o de segurança:  
 - security.conf  
