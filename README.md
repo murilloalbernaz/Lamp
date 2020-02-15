@@ -30,6 +30,6 @@ Configuração Lamp
     </VirtualHost>
 5. Ative seu host atraves do comando: sudo a2ensite "nome do arquivo que criamos acima"
 6. Como não temos um DNS configurado iremos contornar configurando o arquivo hosts na pasta /etc colocando para que a requisição do serve seja feita atraves do local host, comando: 192.168.10.44 thiagogmta.com(escrever dentro do arquivo mencionado e salvar).
-7.Reinicie o Servidor apache atraves do comando: sudo service apache2 restart.
+7. Reinicie o Servidor apache atraves do comando: sudo service apache2 restart.
 8. Se foi feito tudo corretamente seu servidor será reiniciado e você ja pode acessar a pagina index atraves do ServerName ou ServerAlias.
 
