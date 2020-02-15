@@ -15,3 +15,6 @@ Configuração Lamp
 - charset: charset.conf. 
 - ir a pasta /var e alterar as permissões da pasta www com: chmod -R 777 www
 -voce irar ter que hosperdar paginas html dentro da pasta var/www/html.
+## Configurando um host virtual no Apache
+1. Crie um diretório para o host virtual. com o comando: sudo mkdir "Local da pasta que vai conter os html"
+2.  Altere o dono e o grupo do diretório para que o usuário comum possa realizar alterações.(pegar pasta para o usuario: sudo chown –R $USER:$USER /var/www/thiagogmta e definindo permissões: sudo chmod –R 755 /var/www/thiagogmta)
